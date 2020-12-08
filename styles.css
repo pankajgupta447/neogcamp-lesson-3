@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,700&display=swap');
 
 :root {
-    --primary-color: #7c3aed;
+    --primary-color: #4F46E5;
 }
 body {
     font-family: 'Montserrat', 
@@ -17,7 +17,9 @@ body {
     max-width: 600px;
     margin: auto;
 }
-
+hr {
+    margin: 2rem 0rem;
+}
 /** links **/
 .link {
     text-decoration: none;
@@ -37,4 +39,39 @@ body {
 }
 
 /** look into BEM naming convention for CSS **/
+
+/** lists **/
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** navigation **/
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
 
