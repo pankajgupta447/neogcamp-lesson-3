@@ -9,7 +9,11 @@
 body {
     font-family: 'Montserrat',
         sans-serif;
-    margin: 0px;
+}
+
+/** spaces **/
+.margin-md {
+    margin: 2rem 0rem;
 }
 
 /** container **/
@@ -86,6 +90,7 @@ hr {
 /** header **/
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -128,4 +133,9 @@ hr {
 
 .footer .link {
     color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
